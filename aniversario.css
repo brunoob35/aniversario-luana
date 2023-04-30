@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding-top: 40px ;
+    background-color: pink;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    animation: rgb-blink 1s infinite;
+
+}
+
+@keyframes rgb-blink {
+    0% { background-color: red; }
+    25% { background-color: green; }
+    50% { background-color: blue; }
+    75% { background-color: yellow; }
+    100% { background-color: red; }
+}
+
+img{
+    margin: 50px;
+    width: auto;
+}
+
+p{
+    font-size: 40px;
+    animation: rgb-blink 1s infinite;
+}
